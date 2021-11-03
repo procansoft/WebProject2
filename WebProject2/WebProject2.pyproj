@@ -36,6 +36,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="iris.csv" />
+    <Content Include="Procfile" />
+    <Content Include="requirements.txt" />
     <Content Include="templates\home.html" />
     <Content Include="templates\output.html" />
   </ItemGroup>
