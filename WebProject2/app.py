@@ -1,5 +1,6 @@
 import model # Import the python file containing the ML model
 from flask import Flask, request, render_template,jsonify # Import flask libraries
+import gunicorn
 
 # Initialize the flask class and specify the templates directory
 app = Flask(__name__,template_folder="templates")
